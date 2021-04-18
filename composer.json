@@ -1,0 +1,25 @@
+{
+  "name": "bennett-treptow/laravel-mail-stasher",
+  "description": "Keep a log of your mailables",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bennett Treptow",
+      "email": "me@btreptow.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "laravel/framework" : "^7.0|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MailStasher\\":"src"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.17",
+    "friendsofphp/php-cs-fixer": "^2.16"
+  }
+}
